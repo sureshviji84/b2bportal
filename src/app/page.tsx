@@ -43,12 +43,13 @@ export default function Home() {
         </div>
         <div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <Image
-            className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
-            src="/hero-image.jpg"
-            alt="B2B FMCG Platform"
-            width={1920}
-            height={1080}
+            className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full rounded-xl shadow-xl ring-1 ring-gray-400/10"
+            src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1932&auto=format&fit=crop"
+            alt="Business professionals in a modern office setting"
+            width={1932}
+            height={1288}
             priority
+            quality={85}
           />
         </div>
       </div>
